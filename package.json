@@ -4,7 +4,6 @@
     "description": "Stock assistant",
     "author": "VisualSJ",
     "main": "browser.js",
-
     "contributions": {
         "profile": {
             "editor": {
@@ -45,6 +44,12 @@
                     "ui": "ui-checkbox"
                 }
             }
+        },
+        "footer": {
+            "left": "./footer.js"
         }
+    },
+    "dependencies": {
+        "iconv-lite": "^0.6.2"
     }
 }
