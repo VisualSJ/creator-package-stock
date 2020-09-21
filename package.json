@@ -1,0 +1,7 @@
+{
+    "name": "simple-1600659453003",
+    "version": "1.0.0",
+    "description": "A simple plug-in",
+    "author": "Unknown",
+    "main": "browser.js"
+}
