@@ -6,7 +6,15 @@
  * 可以在 package.json 里的 contributions 里定义 messages 触发这里的方法
  * And of course, messages can be defined in the contributions section in package.JSON to trigger the method here
  */
-exports.methods = {};
+exports.methods = {
+    /**
+     * 更新请求
+     * 收到后广播通知 footer 上的监听方法刷新数据
+     */
+    update() {
+        Editor.Message.broadcast('stock-tools:update');
+    },
+};
 
 /**
  * 启动的时候执行的初始化方法

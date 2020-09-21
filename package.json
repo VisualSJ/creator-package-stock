@@ -9,18 +9,22 @@
             "editor": {
                 "current": {
                     "label": "Stock Code",
+                    "message": "update",
                     "default": ""
                 },
                 "interval": {
                     "label": "Refresh Interval",
+                    "message": "update",
                     "default": 20
                 },
                 "numerical": {
                     "label": "Price",
+                    "message": "update",
                     "default": true
                 },
                 "amplitude": {
                     "label": "Amplitude",
+                    "message": "update",
                     "default": false
                 }
             }
@@ -43,6 +47,11 @@
                 "amplitude": {
                     "ui": "ui-checkbox"
                 }
+            }
+        },
+        "messages": {
+            "update": {
+                "methods": ["update"]
             }
         },
         "footer": {
