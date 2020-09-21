@@ -1,5 +1,6 @@
 {
     "name": "stock",
+    "title": "i18n:stock.title",
     "version": "1.0.0",
     "description": "Stock assistant",
     "author": "VisualSJ",
@@ -8,22 +9,22 @@
         "profile": {
             "editor": {
                 "current": {
-                    "label": "Stock Code",
+                    "label": "i18n:stock.preferences.code",
                     "message": "update",
                     "default": ""
                 },
                 "interval": {
-                    "label": "Refresh Interval",
+                    "label": "i18n:stock.preferences.interval",
                     "message": "update",
                     "default": 20
                 },
                 "numerical": {
-                    "label": "Price",
+                    "label": "i18n:stock.preferences.numerical",
                     "message": "update",
                     "default": true
                 },
                 "amplitude": {
-                    "label": "Amplitude",
+                    "label": "i18n:stock.preferences.amplitude",
                     "message": "update",
                     "default": false
                 }
