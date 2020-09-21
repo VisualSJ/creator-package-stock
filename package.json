@@ -1,7 +1,50 @@
 {
-    "name": "simple-1600659453003",
+    "name": "stock",
     "version": "1.0.0",
-    "description": "A simple plug-in",
-    "author": "Unknown",
-    "main": "browser.js"
+    "description": "Stock assistant",
+    "author": "VisualSJ",
+    "main": "browser.js",
+
+    "contributions": {
+        "profile": {
+            "editor": {
+                "current": {
+                    "label": "Stock Code",
+                    "default": ""
+                },
+                "interval": {
+                    "label": "Refresh Interval",
+                    "default": 20
+                },
+                "numerical": {
+                    "label": "Price",
+                    "default": true
+                },
+                "amplitude": {
+                    "label": "Amplitude",
+                    "default": false
+                }
+            }
+        },
+        "preferences": {
+            "properties": {
+                "current": {
+                    "ui": "ui-input"
+                },
+                "interval": {
+                    "ui": "ui-num-input",
+                    "attribute": {
+                        "step": 1,
+                        "min": 5
+                    }
+                },
+                "numerical": {
+                    "ui": "ui-checkbox"
+                },
+                "amplitude": {
+                    "ui": "ui-checkbox"
+                }
+            }
+        }
+    }
 }
